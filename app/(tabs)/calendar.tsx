@@ -2,14 +2,14 @@ import { View, StyleSheet } from "react-native";
 import { Header } from "@/components/Header";
 import { Text } from "react-native";
 
-export default function HomeScreen() {
+export default function CalendarScreen() {
   return (
     <View style={styles.container}>
       <Header />
       <View style={styles.content}>
-        <Text style={styles.title}>Início</Text>
+        <Text style={styles.title}>Calendário</Text>
         <Text style={styles.description}>
-          Bem-vindo ao seu painel de controle agrícola
+          Acompanhe suas atividades e planejamentos
         </Text>
       </View>
     </View>
