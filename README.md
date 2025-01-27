@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# 🌱 Rizoma - Gestão Rural
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Sobre o Projeto
 
-## Get started
+Rizoma é uma recriação de um projeto anteriormente desenvolvido com Django no backend. Esta nova versão foi construída com tecnologias modernas para oferecer uma experiência mais fluida e escalável.
 
-1. Install dependencies
+O aplicativo permite que produtores rurais possam gerenciar suas propriedades de forma intuitiva e eficiente, oferecendo funcionalidades para:
 
-   ```bash
-   npm install
-   ```
+- 🌾 Organização e monitoramento de campos agrícolas
+- 🌍 Gestão de diferentes tipos de solo
+- 🌿 Acompanhamento de plantas cultivadas
+- 📝 Registro e controle de atividades rurais
 
-2. Start the app
+## Stack Tecnológica
 
-   ```bash
-    npx expo start
-   ```
+### Frontend
+- React Native
+- Expo
+- TypeScript
+- Clerk (Autenticação)
 
-In the output, you'll find options to open the app in a
+### Backend
+- Prisma (ORM)
+- PostgreSQL (Neon)
+- Clerk (Autenticação e Autorização)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Por que a Recriação?
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+A decisão de recriar o projeto veio da necessidade de:
+- Melhor performance e escalabilidade
+- Experiência mobile nativa
+- Infraestrutura mais moderna e manutenível
+- Autenticação robusta e segura
 
-## Get a fresh project
+## Funcionalidades Principais
 
-When you're ready, run:
+### Gestão de Campos
+- Cadastro e edição de áreas
+- Visualização detalhada de cada campo
+- Histórico de atividades
 
-```bash
-npm run reset-project
-```
+### Monitoramento de Solo
+- Registro de características do solo
+- Acompanhamento de qualidade
+- Histórico de análises
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Cultivos
+- Cadastro de plantas cultivadas
+- Acompanhamento do desenvolvimento
+- Registro de safras
 
-## Learn more
+### Atividades
+- Registro de atividades realizadas
+- Calendário de planejamento
+- Histórico de operações
 
-To learn more about developing your project with Expo, look at the following resources:
+## Diferenciais
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- 📱 Interface intuitiva e responsiva
+- 🔒 Autenticação segura com múltiplos provedores
+- 💾 Banco de dados confiável e escalável
+- ⚡ Performance otimizada
+- 🔄 Sincronização em tempo real
 
-## Join the community
+## Instalação
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Clone o repositório
+2. Execute `npm install`
+3. Execute `npx expo start`
